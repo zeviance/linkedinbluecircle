@@ -1,11 +1,3 @@
-// Copyright (c) 2015 Christopher Wong. All rights reserved.
-// Use of this source code is governed by a BSD-style license that can be
-// found in the LICENSE file.
-
-// Simple extension to make LinkedIn Progress Strength always @ 100%
-// Source code @ https://github.com/zeviance/linkedinbluecircle
-
-
 {
   "manifest_version": 2,
 
