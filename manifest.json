@@ -1,0 +1,27 @@
+// Copyright (c) 2015 Christopher Wong. All rights reserved.
+// Use of this source code is governed by a BSD-style license that can be
+// found in the LICENSE file.
+
+// Simple extension to make LinkedIn Progress Strength always @ 100%
+// Source code @ https://github.com/zeviance/linkedinbluecircle
+
+
+{
+  "manifest_version": 2,
+
+  "name": "Fill LinkedIn blue circle",
+  "description": "C.Wong solving your OCD since 2015.",
+  "version": "1.0",
+
+  "permissions": [
+    "activeTab",
+    "https://www.linkedin.com/"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://www.linkedin.com/*"],
+      "js": ["jobtitles.js", "linkedin-blue-circle.js"],
+      "run_at": "document_start"
+    }
+  ]
+}
