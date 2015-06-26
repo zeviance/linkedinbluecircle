@@ -10,7 +10,6 @@ document.addEventListener('DOMContentLoaded', function() {
   if (span) {
     span.style.height = "90px";
     span.style.width = "90px";
-    span.style.backgroundColor = "rgb(40, 126, 182)";
   }
 
   // Let the trolling begins!
@@ -35,6 +34,4 @@ document.addEventListener('DOMContentLoaded', function() {
       span.style.backgroundColor = "rgb(40, 196, 232)";
     }
   }
-
-
 });
